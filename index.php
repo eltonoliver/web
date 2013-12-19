@@ -71,26 +71,7 @@ $ano = date("Y");
   </tr>
 </table>
 <?php      
-  /**  miolo **/ 
-	$pg=isset($_GET["pg"])?$_GET["pg"]:"home.php";
-	$pg=addslashes($pg);	
-	//Verifica se a string passada possui algum trecho inv&aacute;lido
-    //Caso tenha mostra uma mensagem de erro
-    if(eregi("http|www|ftp|.dat|.txt|.gif|wget| |.asp|/|\\\\", $pg))
-    {    	
-        //include("home.php");
-        echo "<script type=\"text/Javascript\">";
-        echo "location='index.php'";
-        echo "</script>";
-        return;
-    //Se a vari&aacute;vel passada estiver dentro das normas, executa o else abaixo
-    }else{
-        if(!empty($pg) && file_exists($pg)) {
-            @include ($pg);
-        }else{
-            @include ("home.php"); //essa seria a sua p&aacute;gina principal
-        }
-    }
+    include 'home.php';
 ?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
