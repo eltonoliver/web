@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="style.css" rel="stylesheet" type="text/css"/>
-<title>BF Borracha da Floresta</title>
+<title>AJE - AM</title>
 <script type="text/javascript">
 <!--
 function MM_preloadImages() { //v3.0
