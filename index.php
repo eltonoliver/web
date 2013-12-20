@@ -60,10 +60,10 @@ $ano = date("Y");
     <div style="float:left">
       <a href="?pg=home.php"><div class="menulink">Principal</div></a>
       <a href="?pg=quemsomos.php"><div class="menulink">Quem Somos</div></a>
-      <a href="?pg=sobreborracha.php"><div class="menulink">Sobre a Borracha</div></a>
-      <a href="?pg=cicloprodutivo.php"><div class="menulink">Ciclo Produtivo</div></a>
-      <a href="?pg=parceiros.php"><div class="menulink">Parceiros</div></a>
-      <a href="?pg=localizacao.php"><div class="menulink">Localiza&ccedil;&atilde;o</div></a>
+      <a href="?pg=sobreborracha.php"><div class="menulink">Sobre a Aje</div></a>
+      <a href="?pg=cicloprodutivo.php"><div class="menulink">Projetos e Eventos</div></a>
+      <a href="?pg=parceiros.php"><div class="menulink">Bate Papo de Negócios</div></a>
+      <a href="?pg=localizacao.php"><div class="menulink">Parceiros</div></a>
     <a href="?pg=contatos.php"><div class="menulink">Contatos</div></a>    </div></td>
   </tr>
   <tr>
