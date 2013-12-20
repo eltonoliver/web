@@ -51,15 +51,11 @@ $ano = date("Y");
 		echo "$data";
 ?>
     </span>
-<!-- 
-     <div class="selecao2"><a href="javascript:void(0);"><img src="images/usa.png" width="32" height="24" border="0" /></a></div>
-    <div class="selecao2"><a href="javascript:void(0);"><img src="images/br.png" width="32" height="24" border="0" /></a></div>
-    <span style="float:right" class="txt6">Idiomas:</span>
-  -->  
+ 
     </div>
     <div class="borda"><img src="images/logo.jpg" width="255" height="221" align="left" />
     <img src="images/banner.jpg" width="715" height="221" /></div>
-    <div style="float:left">
+    <div style="float:left;">
       <a href="?pg=home.php"><div class="menulink">Principal</div></a>
       <a href="?pg=quemsomos.php"><div class="menulink">Quem Somos</div></a>
       <a href="?pg=sobreborracha.php"><div class="menulink">Sobre a Aje</div></a>
