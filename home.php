@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
@@ -10,10 +10,10 @@
   <tr>
     <td width="726" valign="top"><div class="quadro"><span class="titulo">
       <div class="borda3"><a href="?pg=quemsomos.php"><img src="images/img.jpg" width="214" height="101" border="0" /></a></div>
-      Nome da Empresa</span><br />
+      AJE</span><br />
       <br />
       <span class="txt2">Apresenta&ccedil;&atilde;o</span><br />
-      Este espa&ccedil;o vai um pequeno texto de chamada da apresenta&ccedil;&atilde;o da Empresa, linkado com uma pagina interna personalizada incluindo textos institucionais como tamb&eacute;m. Apresenta&ccedil;&atilde;o, Empresa, Miss&atilde;o, Valores, Hist&oacute;ria e etc...
+   <?= utf8_decode("A Associação de Jovens Empresários do Amazonas é uma entidade apartidária existente no Amazonas desde 2008, sendo o primeiro movimento jovem da capital. Nasceu dentro da Associação Comercial hoje parceira da entidade , e tornou-se independente pela diversificação das empresas participantes da rede, a qual conta com o segmento de indústria, comércio e serviço.")?>
       <div>
         <div align="right"><a href="?pg=quemsomos.php" class="link">Veja mais</a></div>
       </div>
