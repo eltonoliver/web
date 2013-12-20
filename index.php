@@ -64,7 +64,7 @@ $ano = date("Y");
       <a href="?pg=quemsomos.php"><div class="menulink">Quem Somos</div></a>
       <a href="?pg=sobreborracha.php"><div class="menulink">Sobre a Aje</div></a>
       <a href="?pg=cicloprodutivo.php"><div class="menulink">Projetos e Eventos</div></a>
-      <a href="?pg=parceiros.php"><div class="menulink">Bate Papo de Negócios</div></a>
+      <a href="?pg=parceiros.php"><div class="menulink"><?=utf8_decode("Bate Papo de Negócios");  ?> </div></a>
       <a href="?pg=localizacao.php"><div class="menulink">Parceiros</div></a>
     <a href="?pg=contatos.php"><div class="menulink">Contatos</div></a>    </div></td>
   </tr>
@@ -80,7 +80,7 @@ $ano = date("Y");
     <td height="30" valign="top">&nbsp;</td>
   </tr>
   <tr>
-    <td height="213" valign="top" background="images/funbase.gif"><table width="970" border="0" align="center" cellpadding="0" cellspacing="0">
+    <td height="213" valign="top" style="background-color:#225b22;" ><table width="970" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td height="62" colspan="2" align="right">
         <div class="selecao2"><a href="javascript:void(0);"><img src="images/orkut.png" width="41" height="42" border="0" align="absmiddle" /></a></div>
