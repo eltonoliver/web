@@ -70,7 +70,7 @@
 .menulink:hover {
 	text-decoration: none;
 	background-image: url(images/menu.png);
-	color: #FFFFFF;
+	color: #f7e829;
 }
 .pontilhado { border-bottom-width: 1px; border-bottom-color: #999999; border-bottom-style: dashed; width: 100%; margin-top: 11px; margin-bottom: 11px; }
 .pontilhado2 {
