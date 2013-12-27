@@ -53,7 +53,7 @@ $ano = date("Y");
     </span>
  
     </div>
-    <div class="borda"><img src="images/logo.png" width="255" height="221" align="left" />
+    <div class="borda"> <a href="?pg=home.php">     <img src="images/logo.jpeg" width="255" height="221" align="left" /> </a>
     <img src="images/banner.jpg" width="715" height="221" /></div>
     <div style="float:left;">
       <a href="?pg=home.php"><div class="menulink">Principal</div></a>

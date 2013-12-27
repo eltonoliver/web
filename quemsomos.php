@@ -11,9 +11,32 @@
     <td width="726" height="300" valign="top"><span class="titulo">Quem Somos
     </span>
       <div class="pontilhado"></div>
-      <p>Descri&ccedil;&atilde;o do servi&ccedil;o que vai ficar em destaque na principal do site, com um link para se&ccedil;&atilde;o interna com o conteudo completo referente a mesma, Este espa&ccedil;o vai um pequeno texto de chamada da apresenta&ccedil;&atilde;o da Empresa, linkado com uma pagina interna personalizada incluindo textos institucionais como Apresenta&ccedil;&atilde;o, Empresa, Miss&atilde;o, Valores, Hist&oacute;ria e etc.</p>
-      <p>Descri&ccedil;&atilde;o do servi&ccedil;o que vai ficar em destaque na principal do site, com um link para se&ccedil;&atilde;o interna com o conteudo completo referente a mesma, Este espa&ccedil;o vai um pequeno texto de chamada da apresenta&ccedil;&atilde;o da Empresa, linkado com uma pagina interna personalizada incluindo textos institucionais como Apresenta&ccedil;&atilde;o, Empresa, Miss&atilde;o, Valores, Hist&oacute;ria e etc, Descri&ccedil;&atilde;o do servi&ccedil;o que vai ficar em destaque na principal do site, com um link para se&ccedil;&atilde;o interna com o conteudo completo referente a mesma, Este espa&ccedil;o vai um pequeno texto de chamada da apresenta&ccedil;&atilde;o da Empresa, linkado com uma pagina interna personalizada incluindo textos institucionais como Apresenta&ccedil;&atilde;o, Empresa, Miss&atilde;o, Valores, Hist&oacute;ria e etc.<br />
-      </p></td>
+    <?php echo utf8_decode("  <h4>Conheça a Diretoria
+Gestão até 2014
+</h4>");
+
+      	 echo utf8_decode("<p>Ananda Carvalho , Presidente
+Psicóloga, Sócia-Proprietária do Açaí no Ponto/Educandos  e MJA treinamento e Assessoria
+		</p>");?>
+		<img src="images/image023.jpg" alt="" width="200px;"/><br />
+
+<?php
+		 echo utf8_decode("<p>Rodrigo Viegas , Vice Presidente
+Empresário do segmento imobiliário e Diretor do Creci/ Amazonas-Roraima
+
+		</p>");?>
+		<img src="images/image026.jpg" alt="" width="200px;"/><br />
+
+
+
+		<?php
+		 echo utf8_decode("<p>Michelle Guimarães , Diretora Executiva 
+Assessora de Mercado da Rede Ipiranga Amazonas
+
+
+		</p>");?>
+		<img src="images/image028.jpg" alt="" width="200px;"/><br />
+      </td>
   </tr>
 </table>
 </body>

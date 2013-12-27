@@ -45,7 +45,7 @@
             
               <br />
               <div>
-                <div align="right"><a href="?pg=cicloprodutivo.php" class="link">Veja mais</a></div>
+                <div align="right"><a href="?pg=eventos.php" class="link">Veja mais</a></div>
               </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
             <a href="http://www.receita.fazenda.gov.br/" target="_blank" class="link2">&gt; www.receita.fazenda.gov.br/</a><br />
             <br />
             <div>
-              <div align="right"><a href="?pg=links.php" class="link">Veja mais</a></div>
+              <div align="right"><!--<a href="?pg=links.php" class="link">Veja mais</a>--></div>
             </div>
       </div>
       <br />
@@ -77,11 +77,11 @@
             <br />
             <span class="txt2">Fique por dentro!</span><br />
             <br />
-            <div class="borda2"><a href="?pg=sobreborracha.php"><img src="images/sobreborracha.jpg" width="212" height="79" border="0"/></a></div>
+            <div class="borda2"><a href="?pg=sobre.php"><img src="images/sobre.jpg" width="212" height="79" border="0"/></a></div>
           <p>&nbsp;</p>
           <?=utf8_decode("Movimento apartidário de jovens empresários presente no Amazonas e em mais 22 estados que objetiva o fomento do empreendedorismo jovem e a geração de negócios e networking em rede. "); ?>
           <div>
-              <div align="right"><a href="?pg=sobreborracha.php" class="link">Veja mais</a></div>
+              <div align="right"><a href="?pg=sobre.php" class="link">Veja mais</a></div>
           </div>
         </div></td>
     <td width="250" valign="top"><div class="titulo" style="margin-left:30px">Parceiros</div>
