@@ -121,11 +121,11 @@ $ano = date("Y");
         <span style="float:right; margin-top:20px" class="titulo5">Redes Sociais: </span>        </td>
         </tr>
       <tr>
-        <td width="50%"><p class="txt5"><strong>BF Borracha da Floresta</strong></p>
-          <p class="txt5">Endere&ccedil;o: Av. nomedarua n&ordm;1234 - Centro - Manaus-AM</p>
-          <p class="txt5">Fone: (92) 1234.1234 - 1234.5678</p>
-          <p class="txt5">&copy; 2011 - Copyright - Todos os direitos reservados</p></td>
-        <td width="50%" align="right" valign="bottom"><a href="http://www.idealive.com.br" target="_blank"><img src="images/idealive.png" width="99" height="34" border="0" align="absmiddle" / title="Desenvolvimento" onmouseover="this.src='images/idealive2.png'" onmouseout="this.src='images/idealive.png'"></a></td>
+        <td width="50%"><p class="txt5"><strong>AJE</strong></p>
+          <p class="txt5">Endere&ccedil;o: Av. XXX - Centro - Manaus-AM</p>
+          <p class="txt5">Fone: (92) xxxx - xxxxxxx</p>
+          <p class="txt5">&copy; 2013 - Copyright - Todos os direitos reservados</p></td>
+        <td width="50%" align="right" valign="bottom"></a></td>
       </tr>
     </table></td>
   </tr>
