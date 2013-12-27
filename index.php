@@ -58,18 +58,54 @@ $ano = date("Y");
     <div style="float:left;">
       <a href="?pg=home.php"><div class="menulink">Principal</div></a>
       <a href="?pg=quemsomos.php"><div class="menulink">Quem Somos</div></a>
-      <a href="?pg=sobreborracha.php"><div class="menulink">Sobre a Aje</div></a>
-      <a href="?pg=cicloprodutivo.php"><div class="menulink">Projetos e Eventos</div></a>
-      <a href="?pg=parceiros.php"><div class="menulink"><?=utf8_decode("Bate Papo de Negócios");  ?> </div></a>
-      <a href="?pg=localizacao.php"><div class="menulink">Parceiros</div></a>
-    <a href="?pg=contatos.php"><div class="menulink">Contatos</div></a>    </div></td>
+      <a href="?pg=sobre.php"><div class="menulink">Sobre a Aje</div></a>
+      <a href="?pg=eventos.php"><div class="menulink">Projetos e Eventos</div></a>
+      <a href="?pg=batepapo.php"><div class="menulink"><?=utf8_decode("Bate Papo de Negócios");  ?> </div></a>
+      <a href="?pg=parceiros.php"><div class="menulink">Parceiros</div></a>
+    <a href="?pg=contato.php"><div class="menulink">Contatos</div></a>    </div></td>
   </tr>
   <tr>
     <td height="30">&nbsp;</td>
   </tr>
 </table>
 <?php      
-    include 'home.php';
+    
+
+
+    $pg = isset($_GET['pg']) ? $_GET['pg'] : $_GET['pg'] = "" ;
+
+    if($pg == 'home.php'){
+
+      include 'home.php';
+
+    }if($pg == 'quemsomos.php'){
+
+      include 'quemsomos.php';
+
+    }if($pg == "sobre.php"){
+
+      include 'sobre.php';
+
+    }if($pg == 'eventos.php'){
+
+      include 'eventos.php';
+
+    }if($pg == 'batepapo.php'){
+
+      include 'batepapo.php';
+
+    }if($pg == 'parceiros.php'){
+
+      include 'parceiros.php';
+    
+    }if($pg == 'contato.php'){
+
+      include 'contato.php';
+
+    }elseif(!isset($pg)){
+
+      include 'home.php';
+    }
 ?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>

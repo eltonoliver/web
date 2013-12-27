@@ -19,7 +19,7 @@
       </div>
     </div>
         <br />
-        <div style="width:465px; float:left; margin-right:30px"><span class="titulo">Ciclo Produtivo</span><br />
+        <div style="width:465px; float:left; margin-right:30px"><span class="titulo">Saiba +</span><br />
             <br />
             <div class="quadro1"><img src="images/ciclo.jpg" width="465" height="212" />
                 <div class="botao"></div>
@@ -36,37 +36,36 @@
                 <br />
                 <br />
                 <br />
-                <span class="txt2">Conhe&ccedil;a os cliclos produtivo da Borracha, Descri&ccedil;&atilde;o do servi&ccedil;o que vai ficar em destaque na principal do site, com um link para se&ccedil;&atilde;o interna com o conteudo completo referente a mesma...</span><br />
+                <span class="txt2"><?=utf8_decode("A AJE propõe que seus membros façam negócios entre si, proporcionando uma rede de fornecedores e clientes. Os associados da AJE AMAZONAS contam com um cartão de benefícios que dá direito a valores diferenciados entre as empresas do grupo e parceiros externos . Hoje contamos com xxx empresas que praticam o desconto mediante apresentação do cartão. ");  ?></span><br />
                 <br />
-                <span class="txt2">1&ordm; Titulo do Ciclo</span><br />
-              Descri&ccedil;&atilde;o do servi&ccedil;o que vai ficar em destaque na principal do site, com um link para se&ccedil;&atilde;o interna com o conteudo completo referente a mesma...<br />
+                <span class="txt2">-  Empreendedores do Futuro</span><br />
+             <?=utf8_decode("O Empreendedores do Futuro é um projeto Nacional que busca inserir a cultura empreendedora na educação de base, para que a longo prazo tenhamos uma formação diferenciada e um país mais empreendedor."); ?> <br />
               <div class="pontilhado"></div>
-              <span class="txt2">2&ordm; Titulo do Ciclo</span><br />
-              Descri&ccedil;&atilde;o do servi&ccedil;o que vai ficar em destaque na principal do site, com um link para se&ccedil;&atilde;o interna com o conteudo completo referente a mesma...<br />
-              <br />
+              <span class="txt2"></span><br />
+            
               <br />
               <div>
                 <div align="right"><a href="?pg=cicloprodutivo.php" class="link">Veja mais</a></div>
               </div>
             </div>
         </div>
-      <div class="quadro2"><span class="titulo">Links &Uacute;teis</span><br />
+      <div class="quadro2"><span class="titulo">Links Interessantes</span><br />
             <br />
-            <span class="txt2">Nome da Empresa</span> <br />
-            <a href="http://www.winnerdespachos.com.br" target="_blank" class="link2">&gt; www.winnerdespachos.com.br</a><br />
+            <span class="txt2">CONAJE</span> <br />
+            <a href="http://www.conaje.com.br" target="_blank" class="link2">&gt; www.conaje.com.br</a><br />
             </span>
             <div class="pontilhado2"></div>
-        <span class="txt2">Nome da Empresa </span><br />
-            <a href="http://www.winnerdespachos.com.br" target="_blank" class="link2">&gt; www.winnerdespachos.com.br</a><br />
+        <span class="txt2">SEBRAE </span><br />
+            <a href="http://www.am.sebrae.com.br" target="_blank" class="link2">&gt; www.am.sebrae.com.br</a><br />
             <div class="pontilhado2"></div>
-        <span class="txt2">Nome da Empresa </span><br />
-            <a href="http://www.winnerdespachos.com.br" target="_blank" class="link2">&gt; www.winnerdespachos.com.br</a>
+        <span class="txt2">SEFAZ </span><br />
+            <a href="http://www.sefaz.am.gov.br/" target="_blank" class="link2">&gt; www.sefaz.am.gov.br</a>
             <div class="pontilhado2"></div>
-        <span class="txt2">Nome da Empresa</span> <br />
-            <a href="http://www.winnerdespachos.com.br" target="_blank" class="link2">&gt; www.winnerdespachos.com.br</a>
+        <span class="txt2">PORTAL DO EMPREENDEDOR</span> <br />
+            <a href="http://www.portaldoempreendedor.gov.br" target="_blank" class="link2">&gt; www.portaldoempreendedor.gov.br</a>
             <div class="pontilhado2"></div>
-        <span class="txt2">Nome da Empresa</span> <br />
-            <a href="http://www.winnerdespachos.com.br" target="_blank" class="link2">&gt; www.winnerdespachos.com.br</a><br />
+        <span class="txt2">RECEITA FEDERAL</span> <br />
+            <a href="http://www.receita.fazenda.gov.br/" target="_blank" class="link2">&gt; www.receita.fazenda.gov.br/</a><br />
             <br />
             <div>
               <div align="right"><a href="?pg=links.php" class="link">Veja mais</a></div>
@@ -74,13 +73,13 @@
       </div>
       <br />
         <br />
-        <div class="quadro2"><span class="titulo">Sobre a Borracha</span><br />
+        <div class="quadro2"><span class="titulo">Sobre a AJE</span><br />
             <br />
             <span class="txt2">Fique por dentro!</span><br />
             <br />
             <div class="borda2"><a href="?pg=sobreborracha.php"><img src="images/sobreborracha.jpg" width="212" height="79" border="0"/></a></div>
           <p>&nbsp;</p>
-          Este espa&ccedil;o vai um pequeno texto de chamada dada a apresenta&ccedil;&atilde;o da Empresa, linkado com uma pagina...
+          <?=utf8_decode("Movimento apartidário de jovens empresários presente no Amazonas e em mais 22 estados que objetiva o fomento do empreendedorismo jovem e a geração de negócios e networking em rede. "); ?>
           <div>
               <div align="right"><a href="?pg=sobreborracha.php" class="link">Veja mais</a></div>
           </div>
